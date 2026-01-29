@@ -3,23 +3,34 @@ html, body{
     font-family: 'Plus Jakarta Sans', Helvetica, sans-serif;
     color: #101828;
 }
+
 h2{
     font-weight: 400;
 }
 
-#all-flags{
-    display: flex;
-    flex-direction: row;
+#page-wrapper{
+
+    max-width: 1300px;
+    padding: 60px 60px;
+    margin: 0 auto;
+    text-align: center;
+
 }
 
-.flags-container{
-    display: flex;
-    width: 245px;
-    height: 166px;
-    border: 2px solid #f8f8f8;
-    padding: 24px;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    grid-area: 10px 10px;
+#all-flags{
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 260px);
+    gap: 0px;
+    justify-content: left;
+
 }
+
+.cell{
+    border: solid 2px #f8f8f8;
+}
+
+
+
+
+
