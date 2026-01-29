@@ -6,3 +6,20 @@ html, body{
 h2{
     font-weight: 400;
 }
+
+#all-flags{
+    display: flex;
+    flex-direction: row;
+}
+
+.flags-container{
+    display: flex;
+    width: 245px;
+    height: 166px;
+    border: 2px solid #f8f8f8;
+    padding: 24px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    grid-area: 10px 10px;
+}
